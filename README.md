@@ -1,1 +1,1 @@
-# Worshippers-assembly-church-
+Upload your church photos into the images folder and deploy on GitHub Pages.
