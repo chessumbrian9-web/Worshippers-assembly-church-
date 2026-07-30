@@ -1,1 +1,256 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Exploits Worship City</title><link rel="stylesheet" href="style.css"></head><body><header class="hero"><h1>EXPLOITS WORSHIP CITY</h1><p>Worship • Prayer • Word • Fellowship</p><a href="#about" class="btn">Learn More</a></header><section id="about"><h2>About Us</h2><p>Welcome to Exploits Worship City.</p></section><section><h2>Service Times</h2><ul><li>Sunday 9:00 AM</li><li>Wednesday Prayer 5:30 PM</li></ul></section><section><h2>Gallery</h2><p>Add your church photos into the images folder.</p></section><section><h2>Contact</h2><p>Phone | Email | Address</p></section><button id="top">↑</button><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exploits Worship City</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f5f5;
+color:#222;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("1785406954901.jpg") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+header h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+header p{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ffc107;
+color:#000;
+text-decoration:none;
+font-size:18px;
+border-radius:8px;
+font-weight:bold;
+}
+
+nav{
+background:#0d47a1;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:25px;
+color:#0d47a1;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,.3);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+text-align:center;
+}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+footer a{
+color:#ffc107;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1>EXPLOITS WORSHIP CITY</h1>
+<p>Worship • Prayer • Word • Fellowship</p>
+<a href="#about" class="btn">Join Us</a>
+</div>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#events">Events</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Our Church</h2>
+
+<p style="text-align:center;font-size:18px;">
+Welcome to <b>Exploits Worship City</b>.
+We are a Bible-believing church committed to leading people into a life-changing relationship with Jesus Christ through worship, prayer, discipleship and service.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Service Times</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Sunday Celebration</h3>
+<p>9:00 AM</p>
+</div>
+
+<div class="card">
+<h3>Midweek Prayer</h3>
+<p>Wednesday 5:30 PM</p>
+</div>
+
+<div class="card">
+<h3>Youth Fellowship</h3>
+<p>Friday 5:00 PM</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Church Gallery</h2>
+
+<div class="gallery">
+
+<img src="1785406954901.jpg">
+<img src="1785406978684.jpg">
+<img src="1785406981471.jpg">
+<img src="1785406984253.jpg">
+<img src="1785406987801.jpg">
+<img src="1785406994435.jpg">
+
+</div>
+
+</section>
+
+<section id="events">
+
+<h2>Upcoming Events</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Prayer Conference</h3>
+<p>Everyone is welcome.</p>
+</div>
+
+<div class="card">
+<h3>Sunday Worship Experience</h3>
+<p>Come and worship with us.</p>
+</div>
+
+<div class="card">
+<h3>Community Outreach</h3>
+<p>Sharing God's love with our community.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p style="text-align:center;font-size:18px;">
+📞 Phone: +254 XXX XXX XXX
+<br><br>
+
+📧 Email: info@exploitsworshipcity.org
+
+<br><br>
+
+📍 Kenya
+</p>
+
+</section>
+
+<footer>
+
+<h3>EXPLOITS WORSHIP CITY</h3>
+
+<p>Changing Lives Through Christ</p>
+
+<br>
+
+<p>© 2026 Exploits Worship City. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
